@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>NEON AI | Voice Assistant</title>
+  <meta name="description" content="NEON AI Voice Assistant">
+  <meta name="theme-color" content="#000000">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div class="scanlines"></div>
+
+  <main class="container">
+
+    <header>
+      <div class="status">● SYSTEM ONLINE</div>
+      <h1>NEON<span>_AI</span></h1>
+      <p>VOICE ASSISTANT // TERMINAL</p>
+    </header>
+
+    <section class="ai-core">
+      <div class="ring ring1"></div>
+      <div class="ring ring2"></div>
+      <div class="core">AI</div>
+    </section>
+
+    <section class="panel">
+
+      <div class="label">USER INPUT</div>
+      <div id="userText" class="text">
+        Waiting for voice input...
+      </div>
+
+      <div class="label">AI RESPONSE</div>
+      <div id="aiText" class="text">
+        System ready.
+      </div>
+
+    </section>
+
+    <button id="mic">
+      🎙️ <span>START LISTENING</span>
+    </button>
+
+    <div id="status" class="system-status">
+      SYSTEM READY
+    </div>
+
+    <section class="log">
+      <div class="label">SYSTEM LOG</div>
+      <div id="log"></div>
+    </section>
+
+  </main>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
